@@ -1,0 +1,20 @@
+/* <li style={{ display: "flex", gap: "7px" }}>
+<div className="icon-circle-tick">
+  <TiTick className="tick-icon" />
+</div> */
+
+.icon-circle-tick {
+  width: 25px;
+  height: 25px;
+  color: #fff;
+  position: relative;
+  border-radius: 50%;
+  background: #0bacfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tick-icon {
+  font-size: 35px;
+}

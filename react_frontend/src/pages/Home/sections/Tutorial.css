@@ -1,0 +1,33 @@
+.padding-lg {
+  padding: 5em 0;
+}
+.bg-light-gray {
+  background-color: #f9f9f9;
+}
+.tablet {
+  background: #fff;
+  width: 942px;
+  height: 650px;
+  border-radius: 38px;
+  padding: 50px;
+  box-shadow: inset 0 4px 7px 1px #fff,
+    inset 0 -5px 20px rgba(173, 186, 204, 0.25), 0 2px 6px rgba(0, 21, 64, 0.14),
+    0 10px 20px rgba(0, 21, 64, 0.05);
+}
+
+.icon-circle {
+  width: 65px;
+  height: 65px;
+  line-height: 65px;
+  color: #fff;
+  position: relative;
+  border-radius: 50%;
+  background: #0bacfa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.icon {
+  font-size: 35px;
+}
