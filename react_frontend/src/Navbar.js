@@ -13,6 +13,8 @@ const NavbarTop = ({ connect, connected, becomeMember, isMember }) => {
           <Nav className="me-auto">
             <Nav.Link href="/votes">Votes</Nav.Link>
             <Nav.Link href="/create-vote">Create Vote</Nav.Link>
+            <Nav.Link href="/profile">Profile</Nav.Link>
+            <Nav.Link href="/analytics">Analytics</Nav.Link>
             {!isMember ? (
               <Button variant="success" onClick={becomeMember}>
                 Become Member

@@ -11,7 +11,7 @@ const MainLayout = () => {
         justifyContent: "space-between",
       }}
     >
-      <div className="container">
+      <div className="container py-5">
         <Outlet />
       </div>
       <Footer />
